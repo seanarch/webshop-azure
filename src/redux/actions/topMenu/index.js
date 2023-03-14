@@ -1,17 +1,8 @@
-// import React from 'react'
+export const getTopMenu = ()=>{
 
-// const getTopMenu = () => {
-//   return (
-//     type: 'Menu',
-//     data: ['Home', 'Kids', 'Accessories']
-//   )
-// }
+    return {
+        type :'Menu',
+        data :['Home','Kids','Accessories']
+    }
 
-// export default getTopMenu;
-
-export const getTopMenu = () => {
-  return {
-    type: "Menu",
-    data: ["Home", "Kids", "Accessories"],
-  };
-};
+}
