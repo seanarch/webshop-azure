@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import { getTopMenu } from "../../redux/actions/topMenu/index";
 import "./_topmenu.scss";
@@ -15,7 +15,7 @@ const TopMenu = () => {
                 <ul>
                   {menu.map((item, index) => (
                     <li key={index}>
-                      <a href="#">{item}</a>
+                      <a href="/#">{item}</a>
                     </li>
                   ))}
                 </ul>

@@ -11,21 +11,21 @@ const Sidebar = () => (
         <div className="accordian">
           <div className="card">
             <div className="card-heading">
-              <a>Women</a>
+              <a href="/#">Women</a>
             </div>
             <div className="card-body">
               <ul>
                 <li>
-                  <a href="#">Coats </a>
+                  <a href="/#">Coats </a>
                 </li>
                 <li>
-                  <a href="#">Jackets </a>
+                  <a href="/#">Jackets </a>
                 </li>
                 <li>
-                  <a href="#">Dresses </a>
+                  <a href="/#">Dresses </a>
                 </li>
                 <li>
-                  <a href="#">Shirts </a>
+                  <a href="/#">Shirts </a>
                 </li>
               </ul>
             </div>

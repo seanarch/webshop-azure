@@ -36,8 +36,8 @@ const Header = () => {
             <div className="col-lg-3">
               <div className="header__right">
                 <div className="header__right__auth">
-                  <a href="#">Sign-in/</a>
-                  <a href="#">Sign-up</a>
+                  <a href="/#">Sign-in/</a>
+                  <a href="/#">Sign-up</a>
                 </div>
                 <ul className="widget">
                   <li>

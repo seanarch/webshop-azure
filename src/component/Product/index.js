@@ -15,7 +15,7 @@ const Product = () => (
       <div className="col-lg-4 col-md-6">
         <div className="product__item">
           <div className="product__item__pic">
-            <img className="product__item__pic" src={item} />
+            <img className="product__item__pic" src={item} alt="" />
             <ul className="product__hover">
               <li>
                 <a href={item}>
@@ -26,7 +26,7 @@ const Product = () => (
           </div>
           <div className="product__item__text">
             <h6>
-              <a href="#">Furry Hooded</a>
+              <a href="/#">Furry Hooded</a>
             </h6>
             <div className="rating">
               <i className="fa fa-star" />
