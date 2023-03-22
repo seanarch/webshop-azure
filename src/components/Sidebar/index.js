@@ -26,22 +26,15 @@ const Sidebar = () => {
               <div className="accordian">
                 <div className="card">
                   <div className="card-heading">
-                    <a href="/#">{item.categories}</a>
+                    <a href="/#">{item.Category}</a>
                   </div>
                   <div className="card-body">
                     <ul>
-                      <li>
-                        <a href="/#">Coats </a>
-                      </li>
-                      <li>
-                        <a href="/#">Jackets </a>
-                      </li>
-                      <li>
-                        <a href="/#">Dresses </a>
-                      </li>
-                      <li>
-                        <a href="/#">Shirts </a>
-                      </li>
+                      {item.SubCategory.map((subitem, index) => (
+                        <li key={index}>
+                          <a href="#">{subitem.Name}</a>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
